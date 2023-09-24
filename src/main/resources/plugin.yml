@@ -1,0 +1,16 @@
+name: ProxyCommand
+version: '${version}'
+main: icu.nymph.mythoscode.papermc.ProxyCommandPlugin
+api-version: '1.20'
+commands:
+  ProxyCommand:
+    usage: /<command> <BungeeCord Plugin Message Types> <Arguments>
+    description: ProxyCommand
+    permission: ProxyCommand
+    permission-message: YOu dont have permission to execute this ProxyCommand
+  permissions:
+    ProxyCommand:
+      default: false
+    ProxyCommand.Connect:
+      description: Default permission
+      default: true
