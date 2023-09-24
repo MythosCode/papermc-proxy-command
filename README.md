@@ -3,7 +3,7 @@
 **ProxyCommand** 是一个为 `papermc` 服务器和 `velocity` 代理设计的插件。
 
 ## 安装方法
-1. 下载jar包。
+1. 从release页面下载jar包。
 2. 将jar包放入 `papermc` 的 `plugins` 文件夹。
 3. 重启服务器。
 
